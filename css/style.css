@@ -4,6 +4,19 @@
     box-sizing: border-box;
 }
 
-.tool-bar{
-    background: url(../img/jumbo.png);
+.toolbar{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height: 500px;
 }
+
+.logo{
+    display: inline-block;
+}
+
+nav>li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px;
+}
+
