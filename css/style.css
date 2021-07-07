@@ -1,22 +1,104 @@
+            /* TOOLBAR */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.toolbar{
-    background-image: url(../img/jumbo.png);
-    background-size: cover;
-    height: 500px;
+body{
+    font-family: 'Lato', sans-serif;
 }
 
-.logo{
-    display: inline-block;
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.fl{
+    float: left;
+}
+
+.fr{
+    float: right;
+}
+
+header{
+    background-image: url(https://i.imgur.com/FEYEWuK.png);
+    background-size: cover;
+    height: 500px;
+    color: white;
 }
 
 nav>li{
-    display: inline-block;
     list-style-type: none;
-    padding: 10px;
+    padding: 15px;
 }
 
+nav{
+    margin: 0 160px;
+}
+
+.logo img{
+    margin: 10px 0;
+}
+
+.logo,
+.access,
+li,
+nav{
+    display: inline-block;
+}
+
+.toolbar{
+    margin: auto;
+    padding-top: 10px;
+    width: 70%;
+    min-width: 1000px;
+}
+
+#button{
+    margin: 15px 0;
+    height: 25px;
+    width: 55px;
+    border-radius: 15px;
+
+    background-color: white;
+    color: blue;
+}
+
+input#button:hover{
+    color: white;
+    background-color: rgb(230, 120, 230);
+    cursor: pointer;
+}
+
+
+            /* TEXT SECTION */
+
+
+.text{
+    width: 42%;
+    margin: auto;
+    padding-top: 95px;
+    text-align: center;
+}
+
+.text p{
+    padding: 30px 0 20px;
+}
+
+.big-button{
+    height: 30px;
+    padding: 0 15px;
+    margin: 0 10px;
+    border-radius: 15px;
+
+    background-color: white;
+}
+
+#open-browser{
+    background-color: black;
+    color: white;
+}
