@@ -102,7 +102,7 @@ nav{
 .text{
     width: 42%;
     margin: auto;
-    padding-top: 95px;
+    padding: 95px;
 }
 
 .big-button{
@@ -124,10 +124,9 @@ nav{
 
 
 .view-height{
-    height: 75vh;
-    padding: 100px 10px 0 0;
-    width: 70%;
+    padding: 100px 10px 100px 0;
     margin: auto;
+    width: 70%;
 }
 
 .text-two{
@@ -135,7 +134,8 @@ nav{
 }
 
 .img-characteristics{
-    width: 80%;
+    width: 70%;
+    margin: 0 10px;
 }
 
 #centered-img{
@@ -144,13 +144,7 @@ nav{
 
 .bg-lightgrey{
     background-color: rgb(227, 234, 252);
-    width: 100vw;
-    height: 100%;
-    /* padding: 10px 0; */
-}
-
-.longer{
-    height: 1000px;
+    width: 100%;
 }
 
 #center-img{
