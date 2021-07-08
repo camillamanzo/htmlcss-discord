@@ -99,10 +99,10 @@ nav{
             /* TEXT SECTION */
 
 
-.text{
+.centered.text{
     width: 42%;
     margin: auto;
-    padding: 95px;
+    padding: 50px 80px ;
 }
 
 .big-button{
@@ -124,31 +124,40 @@ nav{
 
 
 .view-height{
-    padding: 100px 10px 100px 0;
+    padding: 100px 0;
     margin: auto;
     width: 70%;
 }
 
+.more-right{
+    margin-right: 50px;
+}
+
+.more-down{
+    padding-top: 20px;
+}
+
 .text-two{
     width: 30%;
+    padding-right: 10px;
 }
 
 .img-characteristics{
     width: 70%;
-    margin: 0 10px;
+}
+
+.img-cover{
+    width: 70%;
 }
 
 #centered-img{
     padding-left: 65px;
+    margin: 20px 200px 20px 0;
 }
 
 .bg-lightgrey{
     background-color: rgb(227, 234, 252);
     width: 100%;
-}
-
-#center-img{
-    margin: 20px 200px 20px 0;
 }
 
 #download-2{
